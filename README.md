@@ -3,8 +3,9 @@
 ## Comandos:
 * https://k-code.gitlab.kmee.com.br/docs/html/
 
-usuario: 3dtsilva@gmail.com.
-senha: *dvr2021*.
+usuario: 3dtsilva@gmail.com
+
+senha: *dvr2021*
 
 ## Videos Pré-Curso:
 
