@@ -112,5 +112,5 @@ source venv/bin/activate
 
 ##  Executando o Odoo 
 
-(odoo) ./odoo-bin -c odoo.conf --save --stop-after-init
+(odoo) ./odoo-bin -c odoo.conf --save --stop-after-init.0
 (odoo) ./odoo-bin -c odoo.conf
