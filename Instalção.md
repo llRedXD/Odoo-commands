@@ -28,14 +28,17 @@ Outras dependências (relatórios e outros);
 Atualizando seu sistema!
 
 sudo apt-get update
+
 sudo apt-get upgrade
 
 ## Instalação do git e virtualenv
 
 sudo apt-get install -y git python3 nano virtualenv xz-utils \
     wget fontconfig libfreetype6 libx11-6 libxext6 libxrender1 xfonts-75dpi gitg
-Criando um projeto Odoo 
-Múltiplos:
+    
+Criando um projeto Odoo
+
+### Múltiplos:
 
 Repositórios / Projetos;
 
@@ -47,23 +50,38 @@ Configurações;
 
 ## Criação de um diretório para o seu projeto 
 mkdir ~/Projects/odoo/ -p
+
 cd ~/Projects/odoo
+
 Iniciando o Controle de versão 
+
 git init
+
 wget https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+
 mv Python.gitignore .gitignore
+
 git add -f .gitignore
+
 gitg
-Dependencias de build 
+
+### Dependencias de build 
+
 sudo apt install gcc build-essential python3-dev
-"#" v12
+
+#### v12
+
 sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev \
      libzip-dev libssl-dev
-"#" v14
+
+#### v14
+
 sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev \
     libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev \
     liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev
+
 ## PostgreSQL 
+
 https://www.postgresql.org/download/
 
 sudo apt-get install postgresql postgresql-contrib
@@ -87,20 +105,27 @@ Permitir aos desenvolvedores trabalharem com diferentes versões de bibliotecas 
 Documentação oficial
 
 python3 --version
-# v12 - 3.5 ou superior**
+
+##### v12 - 3.5 ou superior**
+
 virtualenv venv --python=python3
-# v14 - 3.6 ou superior**
+
+#### v14 - 3.6 ou superior**
+
 virtualenv venv --python=python3
+
 source bin/activate
+
 Para sair:
 
 deactivate
-Baixe do Odoo 
+
+### Baixe do Odoo 
 https://github.com/odoo
 
 Odoo core, imagem docker e entre outros
 
-"#" Lembrar de especificar a versão
+##### Lembrar de especificar a versão
 git clone https://github.com/odoo/odoo.git --depth=1 --branch=14.0 core
 git submodule add ./core
 gitg
@@ -108,9 +133,11 @@ gitg
 ##  Instalação das dependencias python 
 
 source venv/bin/activate
+    
 (odoo) pip install -r core/requirements.txt
 
 ##  Executando o Odoo 
 
 (odoo) ./odoo-bin -c odoo.conf --save --stop-after-init.0
+
 (odoo) ./odoo-bin -c odoo.conf
