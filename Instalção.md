@@ -126,8 +126,7 @@ https://github.com/odoo
 Odoo core, imagem docker e entre outros
 
 ##### Lembrar de especificar a versão
-git clone https://github.com/odoo/odoo.git --depth=1 --branch=14.0 core
-git submodule add ./core
+git submudule add https://github.com/odoo/odoo.git ./core
 gitg
 
 ##  Instalação das dependencias python 
