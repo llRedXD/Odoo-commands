@@ -1,4 +1,4 @@
-# Instalação do Odoo ¶
+# Instalação do Odoo 
 ## Pré requisitos: 
 
 Para se desenvolver Odoo, é recomendável ambiente GNU / Linux;
