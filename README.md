@@ -1,5 +1,11 @@
 # Odoo-commands
 
+## Comandos:
+* https://k-code.gitlab.kmee.com.br/docs/html/
+
+usuario: 3dtsilva@gmail.com
+senha: *dvr2021*
+
 ## Videos Pré-Curso:
 
 * Instalação do Odoo https://www.youtube.com/watch?v=t_ChatxskQ0
