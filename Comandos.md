@@ -1,0 +1,2 @@
+mrbob bobtemplates.odoo:addon
+
