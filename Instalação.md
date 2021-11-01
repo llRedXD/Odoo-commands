@@ -33,8 +33,7 @@ sudo apt-get upgrade
 
 ## Instalação do git e virtualenv
 
-sudo apt-get install -y git python3 nano virtualenv xz-utils \
-    wget fontconfig libfreetype6 libx11-6 libxext6 libxrender1 xfonts-75dpi gitg
+sudo apt-get install -y git python3 nano virtualenv xz-utils wget fontconfig libfreetype6 libx11-6 libxext6 libxrender1 xfonts-75dpi gitg
     
 Criando um projeto Odoo
 
@@ -76,17 +75,15 @@ sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev \
 
 #### v14
 
-sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev \
-    libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev \
-    liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev
+sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev
 
 ## PostgreSQL 
 
 https://www.postgresql.org/download/
 
-sudo apt-get install postgresql postgresql-contrib
-whoami
-sudo su - postgres
+sudo apt-get install postgresql postgresql-contrib /
+whoami /
+sudo su - postgres /
 createuser -s <USUARIO>
 
 ###  Testando
