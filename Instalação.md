@@ -70,8 +70,7 @@ sudo apt install gcc build-essential python3-dev
 
 #### v12
 
-sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev \
-     libzip-dev libssl-dev
+sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libzip-dev libssl-dev
 
 #### v14
 
@@ -81,14 +80,18 @@ sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev li
 
 https://www.postgresql.org/download/
 
-sudo apt-get install postgresql postgresql-contrib /
-whoami /
-sudo su - postgres /
+sudo apt-get install postgresql postgresql-contrib 
+
+whoami 
+
+sudo su - postgres 
+
 createuser -s <USUARIO>
 
 ###  Testando
  
 createdb teste
+    
 dropdb teste
 
 ##  Ambientes virtuais Python 
