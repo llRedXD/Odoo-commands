@@ -30,7 +30,7 @@ Atualizando seu sistema!
 sudo apt-get install -y git python3 nano virtualenv xz-utils wget fontconfig libfreetype6 libx11-6 libxext6 libxrender1 xfonts-75dpi gitg
 
 ## Criação de um diretório para o seu projeto 
-mkdir ~/Projects/odoo/ -p
+`mkdir ~/Projects/odoo/ -p`
 
 `cd ~/Projects/odoo`
 
@@ -74,7 +74,7 @@ Permitir aos desenvolvedores trabalharem com diferentes versões de bibliotecas 
 
 Para sair:
 
-deactivate
+`deactivate`
 
 ### Baixe do Odoo 
 https://github.com/odoo
