@@ -11,18 +11,6 @@ Odoo 12: Debian Stretch ou Ubuntu 18.04 LTS - https://www.odoo.com/documentation
 
 Odoo 14: Debian Buster ou Ubuntu 20.04 LTS - https://www.odoo.com/documentation/14.0/
 
-## Dependências: 
-
-GNU / Linux;
-
-PostgreSQL;
-
-Bibliotecas C;
-
-Python 3 e Bibliotecas que estendem uma biblioteca padrão;
-
-Outras dependências (relatórios e outros);
-
 ## Iniciando 
 
 Atualizando seu sistema!
@@ -33,36 +21,15 @@ sudo apt-get upgrade
 
 ## Instalação do git e virtualenv
 
-sudo apt-get install -y git python3 nano virtualenv xz-utils wget fontconfig libfreetype6 libx11-6 libxext6 libxrender1 xfonts-75dpi gitg
+sudo apt-get install -y git python3 nano virtualenv xz-utils wget fontconfig libfreetype6 libx11-6 libxext6 libxrender1 xfonts-75dpi
     
 Criando um projeto Odoo
 
-### Múltiplos:
-
-Repositórios / Projetos;
-
-Módulos Odoo;
-
-Dependências;
-
-Configurações;
 
 ## Criação de um diretório para o seu projeto 
 mkdir ~/Projects/odoo/ -p
 
 cd ~/Projects/odoo
-
-Iniciando o Controle de versão 
-
-git init
-
-wget https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
-
-mv Python.gitignore .gitignore
-
-git add -f .gitignore
-
-gitg
 
 ### Dependencias de build 
 
@@ -126,8 +93,7 @@ https://github.com/odoo
 Odoo core, imagem docker e entre outros
 
 ##### Lembrar de especificar a versão
-git submudule add https://github.com/odoo/odoo.git ./core
-gitg
+git clone https://github.com/odoo/odoo.git ./core --depth=1
 
 ##  Instalação das dependencias python 
 
