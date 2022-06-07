@@ -7,9 +7,7 @@ Conta no github: https://github.com
 
 Utilizar como versões suportadas pela Odoo SA:
 
-Odoo 12: Debian Stretch ou Ubuntu 18.04 LTS - https://www.odoo.com/documentation/12.0/
-
-Odoo 14: Debian Buster ou Ubuntu 20.04 LTS - https://www.odoo.com/documentation/14.0/
+Odoo 14: Debian Buster ou Ubuntu 22.04 LTS - https://www.odoo.com/documentation/15.0/
 
 ## Iniciando 
 
@@ -35,7 +33,7 @@ Criando um projeto Odoo
 
 `sudo apt install gcc build-essential python3-dev`
 
-#### v14
+#### v15
 
 `sudo apt install libpq-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev`
 
@@ -71,7 +69,7 @@ Para sair:
 https://github.com/odoo
 
 ##### Lembrar de especificar a versão
-`git clone https://github.com/odoo/odoo.git ./core --depth=1`
+`git clone https://github.com/odoo/odoo.git ./core --branch=15.0 --depth=1`
 
 ##  Instalação das dependencias python 
 
