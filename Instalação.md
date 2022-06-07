@@ -68,7 +68,7 @@ https://github.com/odoo
 
 `source venv/bin/activate`
     
-`pip install -r core/requirements.txt``
+`pip install -r core/requirements.txt`
 
 ##  Executando o Odoo 
 
