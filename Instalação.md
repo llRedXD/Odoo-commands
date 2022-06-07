@@ -7,7 +7,7 @@ Conta no github: https://github.com
 
 Utilizar como versões suportadas pela Odoo SA:
 
-Odoo 14: Debian Buster ou Ubuntu 22.04 LTS - https://www.odoo.com/documentation/15.0/
+Odoo 15: Debian Buster ou Ubuntu 22.04 LTS - https://www.odoo.com/documentation/15.0/
 
 ## Iniciando 
 
