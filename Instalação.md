@@ -17,13 +17,6 @@ Atualizando seu sistema!
 
 `sudo apt-get upgrade`
 
-## Instalação do git e virtualenv
-
-`sudo apt-get install -y git python3 nano virtualenv xz-utils wget fontconfig libfreetype6 libx11-6 libxext6 libxrender1 xfonts-75dpi`
-    
-Criando um projeto Odoo
-
-
 ## Criação de um diretório para o seu projeto 
 `mkdir ~/Projects/odoo/ -p`
 
