@@ -15,7 +15,7 @@ Atualizando seu sistema!
 
 `sudo apt-get update`
 
-`sudo apt-get upgrade`
+`sudo apt-get upgrade -y`
 
 ## Criação de um diretório para o seu projeto 
 `mkdir ~/Projects/odoo/ -p`
@@ -24,7 +24,7 @@ Atualizando seu sistema!
 
 ### Dependencias de build 
 
-`sudo apt install gcc build-essential python3-dev`
+`sudo apt install gcc build-essential -y`
 
 #### v15
 
@@ -34,7 +34,7 @@ Atualizando seu sistema!
 
 https://www.postgresql.org/download/
 
-`sudo apt-get install postgresql postgresql-contrib `
+`sudo apt-get install postgresql postgresql-contrib -y`
 
 whoami 
 
@@ -59,9 +59,9 @@ whoami
 
 #### Criando venv**
 
-`python -m venv venv`
+`python -m venv .venv`
 
-`source ./venv/bin/activate`
+`source ./.venv/bin/activate`
 
 Para sair:
 
@@ -71,7 +71,7 @@ Para sair:
 https://github.com/odoo
 
 ##### Lembrar de especificar a versão
-`git clone https://github.com/odoo/odoo.git ./core --branch=15.0 --depth=1`
+`git clone https://github.com/odoo/odoo.git ./core --branch 15.0 --depth 1`
 
 ##  Instalação das dependencias python 
 
