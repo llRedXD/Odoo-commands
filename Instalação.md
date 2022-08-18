@@ -48,6 +48,15 @@ whoami
     
 `dropdb teste`
 
+### Wkhymltopdf
+
+`echo "deb http://security.ubuntu.com/ubuntu impish-security main" | sudo tee /etc/apt/sources.list.d/impish-security.list`
+
+`sudo apt-get update`
+
+`sudo apt-get install libssl1.1 -y`
+
+
 #### Criando venv**
 
 `python -m venv venv`
