@@ -81,6 +81,8 @@ https://github.com/odoo
 
 ##  Executando o Odoo 
 
+`cd core`
+
 `./odoo-bin -c odoo.conf --save --stop-after-init`
 
 `./odoo-bin -c odoo.conf`
