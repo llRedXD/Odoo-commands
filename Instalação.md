@@ -1,13 +1,4 @@
-# Instalação do Odoo 
-## Pré requisitos: 
-
-Para se desenvolver Odoo, é recomendável ambiente GNU / Linux;
-
-Conta no github: https://github.com
-
-Utilizar como versões suportadas pela Odoo SA:
-
-Odoo 15: Debian Buster ou Ubuntu 22.04 LTS - https://www.odoo.com/documentation/15.0/
+# Instalação do Odoo no Ubuntu 22.02
 
 ## Iniciando 
 
